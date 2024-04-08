@@ -13,7 +13,10 @@ const NaiveContact = () => {
             >
                 <p className={styles.sectionSubText}>Get in touch</p>
                 <h3 className={styles.sectionHeadText}>Contact.</h3>
-                <div className={"mt-12 flex flex-col gap-8 h-96"}>form</div>
+                <div className={"mt-12 flex flex-col gap-8 h-96"}>
+                    contact me at <br />
+                    <a href={"mailto:heyy2022@shanghaitech.edu.cn"} className={"text-blue-800 hover:underline"}>heyy2022@shanghaitech.edu.cn</a>
+                </div>
             </motion.div>
 
 

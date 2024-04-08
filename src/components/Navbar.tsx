@@ -19,7 +19,7 @@ const Navbar = () => {
                 >
                     <img src={logo} alt={"logo"} className={"h-9 w-9 object-contain"} />
                     <p className={"text-white text-[18px] font-bold cursor-pointer flex"}>
-                        Tropinone<span className={"sm:block hidden"}>&nbsp;| JavaScript Mastery</span>
+                        Tropinone<span className={"sm:block hidden"}>&nbsp;</span>
                     </p>
                 </Link>
                 <ul className={"list-none hidden sm:flex flex-row gap-10"}>
