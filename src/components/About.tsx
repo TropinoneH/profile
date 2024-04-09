@@ -37,10 +37,12 @@ const NaiveAbout = () => {
                 variants={fadeIn("", "", 0.1, 1)}
                 className={"mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"}
             >
-                I'm a skilled software developer with experience in TypeScript and JavaScript, and expertise in
-                frameworks like React, Node.js, and Three.js. I'm a quick learner and collaborate closely with clients
-                to create efficient, scalable, and user-friendly solutions that solve real-world problems. Let's work
-                together to bring your ideas to life!
+                I am currently an undergraduate student at ShanghaiTech University, proficient in a variety of
+                programming languages including C/C++, Python, C#, Java, JavaScript, TypeScript, and Rust. My expertise
+                extends to utilizing various frameworks such as Qt, FastAPI, Django, WinForms, Spring Boot, Vue.js,
+                React, and Tauri. My current focus lies in the domains of computer vision and machine learning. With a
+                rapid learning pace and a strong aptitude for collaborative work, I am eager to contribute to innovative
+                projects and tackle challenging problems in the field.
             </motion.p>
             <div className={"mt-20 flex flex-wrap gap-10"}>
                 {services.map((service, index) => (
