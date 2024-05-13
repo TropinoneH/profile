@@ -14,6 +14,7 @@ import {
     reactjs,
     redux,
     shanghaitech,
+    trash,
     tailwind,
     threejs,
     typescript,
@@ -182,6 +183,22 @@ const projects: ProjectType[] = [
         ],
         image: notepad,
         source_code_link: "https://github.com/TropinoneH/QtNotepad"
+    },
+    {
+        name: "zsh-trashz",
+        description: "a zsh plugin to move files to trash",
+        tags: [
+            {
+                name: "zsh",
+                color: "blue-text-gradient"
+            },
+            {
+                name: "shell",
+                color: "pink-text-gradient"
+            }
+        ],
+        image: trash,
+        source_code_link: "https://github.com/TropinoneH/zsh-trashz"
     }
 ]
 

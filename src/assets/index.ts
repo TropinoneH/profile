@@ -25,6 +25,7 @@ import shanghaitech from "./company/shanghaitech.png"
 
 import courseBench from "./work/course_bench.svg"
 import notepad from "./work/QtNotePad.ico"
+import trash from "./work/trash.png"
 
 export {
     logo,
@@ -50,5 +51,6 @@ export {
     threejs,
     shanghaitech,
     courseBench,
-    notepad
+    notepad,
+    trash
 }
