@@ -2,7 +2,7 @@ import { Canvas, PointsProps, useFrame } from "@react-three/fiber"
 import { Suspense, useRef } from "react"
 import { PointMaterial, Points, Preload } from "@react-three/drei"
 import { random } from "maath"
-import THREE from "three"
+import * as THREE from "three"
 
 const Stars = (props: PointsProps) => {
     const ref = useRef<THREE.Points>(null)
