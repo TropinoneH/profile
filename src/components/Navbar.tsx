@@ -32,6 +32,9 @@ const Navbar = () => {
                             <a href={`#${item.id}`}>{item.title}</a>
                         </li>
                     ))}
+                    <li className="text-secondary hover:text-cyan-200 text-[18px] font-medium cursor-pointer">
+                        <a href="/resume.pdf">Resume</a>
+                    </li>
                 </ul>
                 <div className={"sm:hidden flex flex-1 justify-end items-center"}>
                     <img
